@@ -1,0 +1,82 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<link rel="stylesheet" href="style.css"> 
+</head>  
+<body>  
+<form>  
+  <pre class="container">  
+  <center>  <h1>Technicians Details</h1> </center>  
+  
+<label>Technician name:</label>                     <input type="text" name="firstname" placeholder= "Technician name"  required style="margin-left: 2px;"/>   <br><br>
+<label>Hospital Name:</label>                         <input type="text" name="Hosname" placeholder="Hospital Name" required />   
+ 
+<label>   
+Date Of Birth :                          <input type="text" name="DOB" placeholder="DOB" required style="margin-left: 2px;"/> 
+
+</label>   
+<label>   
+Gender :  </label><br>  
+          <input type="radio" value="Male" name="gender" checked > Male  
+
+          <input type="radio" value="Female" name="gender"> Female
+
+          <input type="radio" value="Other" name="gender"> Other  
+  
+
+Marital status: <br>
+          <input type="radio" name="maritalstatus" value="Married" /> Married
+
+          <input type="radio" name="maritalstatus" value="Single" /> Single
+
+          <input type="radio" name="maritalstatus" value="widowed" />Widowed
+
+          <input
+      type="radio"
+      name="maritalstatus"
+      value="Divorced"
+    />Divorced<br /><br />
+Blood Group:                      <select>                                            
+        <option value="">Blood Group</option>                    <
+        <option value="A pos"> A+ </option>                          
+        <option value="A neg"> A-</option>
+        <option value="B pos"> B+</option>                         
+        <option value="B neg"> B-</option>                       
+        <option value="AB Pos">AB+</option>
+        <option value="AB neg">AB-</option> 
+        <option value="O pos"> O+</option>  
+        <option value="O neg"> O-</option>         
+    </select> <br /><br />
+Qualification:                      <input type="text" name="Qualification" /><br /><br />
+Specializes in:                   <input type="text" name="special" style="margin-left: 2PX;"/><br /><br />
+Institute Graduated from:   <input type="text" name="institute" /><br /><br />    
+<label>Phone :  </label>                            <input type="text" name="country code" placeholder="Country Code"  value="+91" size="2" style="margin-left: 2px;"/> <input type="text" name="phone" placeholder="phone no." size="10"/>   <br><br>
+Current Address :              <textarea cols="30" rows="1" placeholder="Current Address" value="address" style="margin-left: 2px;" required>  
+</textarea>  <br><br>
+<label>License No:</label>                        <input type="text" name="lic" placeholder="License No" size="15" required />   <br>
+ 
+<label for="email">Email</label>                                 <input type="text" placeholder="Enter Email" name="email" required style="margin-left: 2px;">  <br><br>
+<hr>  
+<strong>Machine Details</strong>
+
+
+<label>Machine Number</label>               <input type="text" name="middlename" placeholder="NO Of Machines" size="15" required />   
+
+  
+<label>Last Serviced Date: </label>          <input type="text" name="Date" placeholder="DD/MM/YY" size="15" required />
+
+
+<label>Machines Working status:  </label><br>  
+                              <input type="radio" value="Yes" name="status" checked > Yes
+
+                              <input type="radio" value="No" name="gender"> No  
+<br><br>
+<hr>
+
+
+<center><input type="submit"></center>
+  </pre>
+</form>  
+</body>  
+</html>
